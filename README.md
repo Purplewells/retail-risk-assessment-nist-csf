@@ -1,5 +1,13 @@
 # Urban Thread - Cyber Security Risk Assessment
-A NIST CSF- aligned risk assessment for a fictional youth retail brand, demonstrating GRC methodology in a realistic SMB context.
+A National Institute of Standards and Technology (NIST) CSF- aligned risk assessment for a fictional youth retail brand, demonstrating GRC methodology in a realistic SMB context.
+
+## Table of Contents
+- [Key Assumptions](001%20-%20key_assumptions.md)
+- [Risk Content](002%20-%20risk_content.md)
+- [Assessment Methodology](003%20-%20assessment_methodology.md)
+- [Glossary of Terminologies](099%20-%20glosary_of_terminologies.md)
+
+[⬅ Back to Home](../README.md)
 
 ## Client Context
 - **Organisation**: Urban Thread
@@ -10,3 +18,15 @@ A NIST CSF- aligned risk assessment for a fictional youth retail brand, demonstr
 - **Revenue Model:** 60% e-commerce, 40% in-store walk-in sales
 
 ## Scope & Assumptions
+### In Scope
+- Physical store POS systems and payment processing
+- E-commerce platform (assumed Shopify or similar SaaS)
+- Customer database and CRM
+- Staff access controls and credential management
+- Social media and digital brand presence
+- Third-party vendor relationships (hosting, payment processor, analytics)
+
+### Out of Scope
+- Supply chain security (assumed handled by vendor)
+- Physical security (building alarms, CCTV — not a security maturity issue)
+- Compliance with industry-specific standards beyond PCI-DSS and GDPR (e.g., no ISO 27001 certification required at this stage)
