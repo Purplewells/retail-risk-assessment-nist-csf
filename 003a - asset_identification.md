@@ -43,3 +43,26 @@ Urban Thread processes several categories of information requiring different lev
 | Sales and financial reports     | High                        | Commercially sensitive business information.                               |
 | Marketing content               | Medium                      | Valuable but largely intended for public distribution.                     |
 | Product catalogue               | Low                         | Public information supporting sales activities.                            |
+
+
+## Asset Ownership
+
+Assigning ownership ensures accountability for protecting business assets.
+
+| Asset                 | Typical Owner                                    |
+| --------------------- | ------------------------------------------------ |
+| Customer database     | Business Owner / Operations Manager              |
+| Shopify Store         | E-commerce Manager / Business Owner              |
+| Payment Processing    | Finance Manager / Business Owner                 |
+| POS Systems           | Store Manager                                    |
+| Microsoft 365         | Operations Manager                               |
+| Social Media Accounts | Marketing Manager                                |
+| Inventory Management  | Operations Manager                               |
+| Employee Devices      | Individual Employees (with management oversight) |
+| Backup Systems        | Operations Manager / Managed Service Provider    |
+
+## Summary
+
+Urban Thread's most valuable assets are those that directly support revenue generation, regulatory compliance and customer trust. The customer database, e-commerce platform, payment systems and backup infrastructure are classified as critical assets because their compromise would have the greatest impact on the organisation. Supporting assets—including Microsoft 365, POS systems, employee devices and social media accounts—also require strong protection due to their role in business operations and their potential to provide attackers with access to more sensitive systems.
+
+This asset inventory provides the foundation for the next stage of the assessment, where threats and vulnerabilities are analysed against each asset to determine the organisation's overall cyber security risk profile.
