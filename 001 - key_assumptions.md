@@ -1,125 +1,21 @@
-# Key Assumptions
-For this assessment to remain realistic and actionable, the following business constraints and operating assumptions must hold. If your scenario differs, adjust the risk register and roadmap accordingly.
+## Urban Thread Overview for Risk Assessment
 
-## Financial & Staffing Constraints
-### Annual Security Budget
-£5,000 - £10,000
+**Urban Thread** is a small to medium business UK-based fashion retailer targeting teenagers and young adults through a combination of e-commerce and a physical retail presence. The business currently operates **one store in Birmingham** with **12 full-time employees**, generating approximately **60% of its revenue from online sales** and **40% from in-store purchases**. The company relies heavily on **TikTok and Instagram** for customer acquisition and brand awareness, making its online presence a critical business asset.
 
-- **Rationale**: For a 12-person retail SMB; security is overhead, not a revenue center
-- **Allocation**: Prioritises SaaS tools over custom builds; outsourced services over FTE hires
-- **Impact on assessment**: Controls must be low-cost or free (MFA, patching, training). Enterprise tools (SIEM, EDR) are out of scope until Year 2 expansion
+The organisation has ambitious growth plans to expand to **three stores** (Birmingham, Manchester and London) within the next year, increasing its workforce to approximately **25 employees**. This expansion will introduce additional point-of-sale (POS) systems, a larger customer database, and more complex operational processes, all of which will increase the organisation's cyber security risk exposure.
 
-### Available IT/Security Staffing
+From a technology perspective, Urban Thread follows a cloud-first approach suitable for a small business. Its e-commerce platform is assumed to be **Shopify (or an equivalent SaaS platform)**, while payment processing is outsourced to a **PCI-DSS compliant third-party provider** such as Stripe, Square or Shopify Payments. Customer information, including contact details, purchase history and limited payment metadata, is stored in a single cloud-hosted customer database. Staff use cloud productivity services such as **Microsoft 365 or Google Workspace**, with no on-premises infrastructure or enterprise directory services.
 
-**~5 hours per week** (part-time manager wearing many hats)
+The organisation operates with significant resource constraints. It has an annual cyber security budget of approximately **£5,000–£10,000** and no dedicated IT or cyber security personnel. Instead, an operations manager spends around **five hours per week** managing technology and security responsibilities alongside their primary role. Consequently, Urban Thread depends on low-cost security controls, cloud-native security features, automation and outsourced expertise rather than enterprise security platforms.
 
-- **Rationale**: No dedicated IT hire; operations manager handles POS, inventory, and now security
-- **Impact on assessment**: Roadmap assumes external support for complex tasks (incident response, DPIA, vendor vetting). Implementation relies on automation and managed services, not manual monitoring
-- **Scaling assumption:** Expansion to 3 stores (Year 2) will justify a part-time security hire or outsourced CISO
+The primary regulatory obligations are **UK GDPR** and **PCI-DSS**. Because approximately **40% of Urban Thread's customers are under the age of 18**, the organisation must also comply with **UK GDPR Article 8** regarding children's personal data. This significantly increases the potential legal, financial and reputational impact of any customer data breach involving minors and makes the protection of personal information a high-priority business objective.
 
-## Regulatory & Compliance Scope
-**Primary Compliance Drivers**
+Urban Thread also relies on several third-party providers, including payment processors, web hosting, analytics platforms, social media advertising services and email marketing tools. While these providers reduce the need for internal infrastructure management, they introduce third-party supply chain risks that require appropriate vendor due diligence, Data Processing Agreements (DPAs), and periodic security reviews.
 
-#### PCI-DSS (payment card processing) and UK GDPR (customer data, minors)
+The company's risk appetite is **low to moderate**. Management aims to support business growth while maintaining regulatory compliance but recognises that limited financial and staffing resources prevent investment in enterprise-grade cyber security technologies. As a result, Urban Thread accepts a measured level of residual risk in exchange for cost-effective security controls, focusing investment on high-impact, affordable measures such as multi-factor authentication (MFA), regular patch management, staff security awareness training, secure configuration, access control and vendor management.
 
+Overall, Urban Thread's cyber security risk profile is characterised by a strong dependence on cloud services, social media, and third-party vendors, combined with the processing of children's personal data, limited internal security resources, and rapid business growth. These factors make data protection, account security, third-party risk management and business continuity the most significant areas for the organisation's cyber security risk assessment.
 
-- Rationale: Urban Thread processes cards daily and collects data from ~40% under-18 customers
-- Not in scope (at this stage): ISO 27001, SOC 2, HIPAA, or other industry-specific standards
-- Impact: Roadmap focuses on PCI-DSS + GDPR requirements; other frameworks used for reference only
-
-## UK GDPR Child Data Handling
-
-**Article 8 applies** (verifiable parental consent or age verification for under-16 data)
-
-- Rationale: ~40% of customer base is under 18; heightened liability under GDPR Article 8
-- Impact: Customer data breach involving minors elevated to High priority (R1) regardless of raw likelihood
-- Practical requirement: DPIA required; consent mechanisms reviewed in Phase 2
-
-## Technical Architecture Assumptions
-
-**Payment Processing**
-**Assumed: Third-party SaaS processor (Stripe, Square, Shopify Payments) handling PCI compliance**
-
-- Rationale: Most SMBs do not self-host payment gateways; reduces scope and risk
-- Verification required: Real assessment would confirm processor's PCI DSS certification
-- Impact: R2 (card data breach) risk is lower than it would be for on-premise processing; focus shifts to misconfiguration and access control
-
-## E-Commerce Platform
-**Assumed: Shopify or equivalent SaaS (not custom-built or self-hosted)**
-
-- Rationale: Reduces infrastructure burden; vendor patches core platform
-- Risk shift: Exposure moves to third-party app/plugin security and merchant account misconfiguration
-- Impact on roadmap: Phase 1 includes plugin audit and patch schedule; Phase 3 adds WAF (managed, not self-hosted)
-
-## Customer Database
-
-**Assumed: Single database hosting customer contact info, purchase history, and (minimal) payment metadata**
-
-- Rationale: Typical for retail SMB; no data warehouse or advanced analytics initially
-- Data residency: Assumed UK-hosted (complies with GDPR residency preferences)
-- Impact: Encryption at rest (Phase 3) is achievable with SaaS tools; no custom encryption engineering
-
-## Staff Systems
-
-**Assumed:** Cloud-based email (Office 365, Google Workspace), shared password manager, no enterprise directory
-
-- Rationale: Cost-effective for small team; avoids on-premise AD complexity
-- Impact on roadmap: MFA (Phase 1) is straightforward; access review (Phase 4) is simpler with fewer systems
-
-## Business Context & Growth
-
-### Current State
-
-- 1 physical store (Birmingham)
-- 12 FTE staff (owner/manager + 11 floor/delivery staff)
-- Revenue split: 60% e-commerce, 40% in-store
-- Customer focus: Fashion-forward teens and young adults; social media (TikTok, Instagram) is primary acquisition channel
-
-### Expansion Plans (Year 2)
-
-- Opening: 2 additional stores (Manchester, London)
-- Headcount: Expected to grow to ~25 FTE
-- Systems impact: 3× POS terminals, centralized inventory system, likely need for proper IT/ops hire
-- Roadmap assumption: Budget and staffing scale accordingly; Phase 4 recommendations assume post-expansion capacity
-
-
-### Brand Risk Profile
-
-- High sensitivity to social media crises: TikTok/Instagram followings drive word-of-mouth sales
-- Reputational damage from data breach: Quick loss of customer trust in a youth-focused brand
-- Implication: R3 (social media account takeover) and R1 (child data breach) are weighted heavily for impact despite lower raw likelihood
-
-## Vendor & Third-Party Assumptions
-
-We assumed **Payment Processor** is PCI-DSS compliant; DPA in place; no raw card data stored by Urban Thread
-
-- Verification step in Phase 2: Confirm processor's compliance certification and sub-processor list
-- Impact: Reduces card data breach risk to lower than typical; focus is on proper use, not processor vetting
-
-
-*Hosting Provider & E-Commerce Platform*
-
-Assumed Shopify (or equivalent); vendor responsible for core infrastructure security
-
-
-- Assessment scope: Configuration, access control, app ecosystem security (not vendor SLA compliance)
-- Phasing: Plugin audit (Phase 2), WAF implementation (Phase 3)
-
-
-## Third-Party Marketing Tools
-
-Assumed: Google Analytics, Facebook Pixel, email marketing platform (e.g., Mailchimp) collecting customer data
-
-- DPA requirement (Phase 2): Confirm all vendors have signed DPAs; review sub-processor disclosures
-- Data sharing risk: Low immediate risk if data minimisation is practiced, but requires vendor review
-
-## Risk Appetite & Trade-Offs
-
-### Risk Appetite: Low-to-Moderate
-
-- Urban Thread wants to grow safely and remain compliant
-- Owner accepts some residual risk in exchange for cost-efficiency
-- Will not invest in enterprise-grade tools (SIEM, EDR, threat intel) at this stage
 
 ## Budget vs Coverage Trade-Off
 
