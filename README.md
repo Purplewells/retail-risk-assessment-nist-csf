@@ -1,4 +1,4 @@
-# Urban Thread - Security Risk Assessment
+# Security Risk Assessment Overview
 A National Institute of Standards and Technology (NIST) CSF- aligned risk assessment for a fictional youth retail brand, demonstrating GRC methodology in a realistic SMB context.
 
 ## Table of Contents
