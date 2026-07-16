@@ -81,4 +81,4 @@ Urban Thread's threat landscape is dominated by attacks that exploit human behav
 
 These identified threats will be assessed against known vulnerabilities in the next stage of the assessment to determine the overall level of risk and identify appropriate mitigation measures.
 
-[⬅ Back to Home](000%20-%20README.md) | [Next: Vulnerability Assessment ➡](005%20-%20vulnerability_assessment.md)
+[⬅ Previous: Asset Identification](003%20-%20asset_identification.md) | [🏠 Home](000%20-%20README.md) | [Next: Vulnerability Assessment ➡](005%20-%20vulnerability_assessment.md)

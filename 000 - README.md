@@ -4,7 +4,7 @@ A National Institute of Standards and Technology (NIST) CSF- aligned risk assess
 ## Table of Contents
 - [Key Assumptions](001%20-%20key_assumptions.md)
 - [Risk Content & Assessment Methodology](002%20-%20risk_content.md)
-- [Asset Identification](003a%20-%20asset_identification.md)
+- [Asset Identification](003%20-%20asset_identification.md)
 - [Threat Identification](004%20-%20threat_identification.md)
 - [Vulnerability Assessment](005%20-%20vulnerability_assessment.md)
 - [Risk Register](006%20-%20risk_register.md)

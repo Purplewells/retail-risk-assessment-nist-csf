@@ -1,7 +1,5 @@
 # Recommendations & Roadmap
 
-[⬅ Back to Home](000%20-%20README.md)
-
 ### Overview
 
 
@@ -140,5 +138,5 @@ The recommended roadmap provides a proportionate approach that balances security
 
 As the organisation expands, cyber security should evolve from an operational responsibility into a formal business capability that supports customer trust, regulatory compliance and long-term resilience.
 
-[⬅ Back to Home](000%20-%20README.md) | [Next: Glossary of Terminologies ➡](099%20-%20glosary_of_terminologies.md)
+[⬅ Previous: Risk Treatment Plan](007%20-%20treatment_plan.md) | [🏠 Home](000%20-%20README.md) | [Next: Glossary of Terminologies ➡](099%20-%20glosary_of_terminologies.md)
 
