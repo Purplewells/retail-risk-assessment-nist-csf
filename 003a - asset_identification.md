@@ -3,7 +3,7 @@
 
 Asset identification is the process of identifying the information, systems, services and business resources that support Urban Thread's operations. Understanding what assets exist and their business value enables the organisation to prioritise security controls, assess potential threats, and evaluate the impact of cyber security incidents.
 
-Urban Thread relies heavily on cloud-based services and third-party platforms to conduct day-to-day business. Consequently, protecting customer information, payment systems, online sales channels and business communications is essential to maintaining operational continuity, regulatory compliance and customer trust.
+Urban Thread relies on cloud-based services and third-party platforms to conduct day-to-day business. In view of that, protecting customer information, payment systems, online sales channels and business communications is essential to maintaining operational continuity, regulatory compliance and customer trust.
 
 | Asset                                  | Description                                                                                 | Information Processed                                                                                  | Business Importance                                                                                                                           |
 | -------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -66,3 +66,5 @@ Assigning ownership ensures accountability for protecting business assets.
 Urban Thread's most valuable assets are those that directly support revenue generation, regulatory compliance and customer trust. The customer database, e-commerce platform, payment systems and backup infrastructure are classified as critical assets because their compromise would have the greatest impact on the organisation. Supporting assets—including Microsoft 365, POS systems, employee devices and social media accounts—also require strong protection due to their role in business operations and their potential to provide attackers with access to more sensitive systems.
 
 This asset inventory provides the foundation for the next stage of the assessment, where threats and vulnerabilities are analysed against each asset to determine the organisation's overall cyber security risk profile.
+
+[⬅ Back to Home](000%20-%20README.md)

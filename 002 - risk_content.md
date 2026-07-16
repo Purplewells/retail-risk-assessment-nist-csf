@@ -1,6 +1,6 @@
 # Risk Context
 
-## Organisational Risk Profile
+## Urban Thread Risk Profile
 
 Urban Thread operates in a business environment where cyber security risks are influenced by its business model, customer demographics, regulatory obligations, and limited operational resources. As a growing small retail business, the organisation relies heavily on cloud-based services, e-commerce, third-party providers, and social media to generate revenue. Consequently, successful cyber attacks could disrupt business operations, expose customer data, damage the company's reputation, and hinder future expansion.
 
@@ -23,7 +23,6 @@ Failure to comply may result in:
 
 Because customer data includes information relating to minors, any personal data breach is considered a high-priority business risk regardless of its likelihood.
 
----
 
 ### 2. Reputational Sensitivity
 
@@ -41,7 +40,6 @@ could rapidly reduce customer confidence, generate negative publicity, and direc
 
 Unlike larger organisations, small retailers often have limited ability to recover from significant reputational damage, making brand protection a critical security objective.
 
----
 
 ### 3. Operational and Resource Constraints
 
@@ -65,7 +63,7 @@ Instead, risk treatment must focus on affordable, cloud-native security controls
 
 Cyber security should therefore be viewed as a **business enabler** that supports secure growth rather than as an operational overhead.
 
----
+
 
 ### 4. Business Growth and Third-Party Dependency
 
@@ -89,7 +87,7 @@ The business also depends heavily on third-party providers, including:
 
 Although these services reduce infrastructure management responsibilities, they introduce supply chain and third-party security risks that require effective vendor management, access control, and periodic security reviews.
 
----
+
 
 ## Risk Appetite
 
@@ -109,7 +107,7 @@ Accordingly, Urban Thread prioritises investments that provide the greatest redu
 
 Enterprise-scale security platforms and dedicated security personnel are considered outside the current budget and are deferred until future business expansion.
 
----
+
 
 # Assessment Methodology
 
@@ -125,7 +123,7 @@ The assessment aims to:
 * recommend practical, cost-effective controls appropriate for a small business; and
 * support secure business growth while maintaining regulatory compliance.
 
----
+
 
 ## Why NIST CSF?
 
@@ -138,7 +136,7 @@ Key advantages include:
 * supports continuous improvement as the organisation grows; and
 * enables future alignment with more mature security frameworks without requiring major changes.
 
----
+
 
 ## Risk Assessment Approach
 
@@ -162,7 +160,7 @@ Where:
 * **Likelihood** is scored from **1 (Very Low)** to **5 (Very High)** based on the probability of occurrence.
 * **Impact** is scored from **1 (Negligible)** to **5 (Critical)** based on the effect on confidentiality, integrity, availability, legal compliance, financial loss and reputation.
 
----
+
 
 ## Risk Prioritisation
 
@@ -174,7 +172,7 @@ Where:
 
 Where regulatory obligations or children's personal data are involved, risks may be prioritised above their numerical score to reflect Urban Thread's compliance responsibilities and low tolerance for data protection failures.
 
----
+
 
 ## Assessment Scope
 
@@ -191,3 +189,5 @@ This assessment covers the following business areas:
 * backup and business continuity arrangements
 
 The resulting risk register and recommendations are designed to reflect Urban Thread's current operational environment while providing a roadmap that can scale alongside the organisation's planned business expansion.
+
+[⬅ Back to Home](000%20-%20README.md)
