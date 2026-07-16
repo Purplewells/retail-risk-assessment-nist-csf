@@ -67,4 +67,4 @@ Urban Thread's most valuable assets are those that directly support revenue gene
 
 This asset inventory provides the foundation for the next stage of the assessment, where threats and vulnerabilities are analysed against each asset to determine the organisation's overall cyber security risk profile.
 
-[⬅ Back to Home](000%20-%20README.md)
+[⬅ Back to Home](000%20-%20README.md) | [Next: Threat Identification ➡](004%20-%20threat_identification.md)
