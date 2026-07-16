@@ -89,4 +89,4 @@ The assessment identified 12 principal cyber security risks, of which:
 The overall risk profile indicates that Urban Thread's greatest exposure lies in identity compromise, customer data protection, ransomware, cloud service security, and third-party dependencies. These risks are amplified by the organisation's reliance on cloud platforms, its processing of children's personal data, and its limited internal cyber security capability. Consequently, the recommended treatment plan focuses on implementing practical, cost-effective controls—such as MFA, least-privilege access, staff awareness training, secure configuration, and tested backup procedures—that align with Urban Thread's budget, staffing levels and growth ambitions.
 
 
-[⬅ Back to Home](000%20-%20README.md)
+[⬅ Back to Home](000%20-%20README.md) | [Next: Risk Treatment Plan ➡](007%20-%20treatment_plan.md)

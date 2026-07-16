@@ -1,5 +1,7 @@
 # Risk Treatment Plan
 
+[⬅ Back to Home](000%20-%20README.md)
+
 ### Purpose
 
 The purpose of the Risk Treatment Plan is to define how Urban Thread will reduce cyber security risks to an acceptable level in line with its risk appetite, available budget and operational capacity. The plan prioritises actions based on the results of the risk assessment and aligns with the NIST Cybersecurity Framework (CSF) 2.0 functions of Govern, Identify, Protect, Detect, Respond and Recover.
@@ -126,3 +128,5 @@ To evaluate the effectiveness of the treatment plan, Urban Thread should monitor
 * Annual review of the risk register and treatment plan, or sooner if significant business changes occur (e.g., opening new stores).
 
 This phased approach balances security improvements with Urban Thread's financial and staffing constraints while providing a realistic roadmap that can evolve as the organisation grows.
+
+[⬅ Back to Home](000%20-%20README.md) | [Next: Recommendations & Roadmap ➡](008%20-%20recommendations_and_roadmap.md)

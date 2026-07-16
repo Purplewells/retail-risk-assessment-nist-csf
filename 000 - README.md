@@ -3,15 +3,14 @@ A National Institute of Standards and Technology (NIST) CSF- aligned risk assess
 
 ## Table of Contents
 - [Key Assumptions](001%20-%20key_assumptions.md)
-- [Risk Content](002%20-%20risk_content.md)
-- [Assessment Methodology](003%20-%20assessment_methodology.md)
+- [Risk Content & Assessment Methodology](002%20-%20risk_content.md)
 - [Asset Identification](003a%20-%20asset_identification.md)
-- [Deliverables](004%20-%20deliverables.md)
 - [Threat Identification](004%20-%20threat_identification.md)
 - [Vulnerability Assessment](005%20-%20vulnerability_assessment.md)
+- [Risk Register](006%20-%20risk_register.md)
+- [Risk Treatment Plan](007%20-%20treatment_plan.md)
+- [Recommendations & Roadmap](008%20-%20recommendations_and_roadmap.md)
 - [Glossary of Terminologies](099%20-%20glosary_of_terminologies.md)
-
-[⬅ Back to Home](000%20-%20README.md)
 
 ## Client Context
 - **Organisation**: Urban Thread
@@ -34,3 +33,5 @@ A National Institute of Standards and Technology (NIST) CSF- aligned risk assess
 - Supply chain security (assumed handled by vendor)
 - Physical security (building alarms, CCTV is not a security maturity issue)
 - Compliance with industry-specific standards beyond PCI-DSS and GDPR (e.g., no ISO 27001 certification required at this stage)
+
+[Next: Key Assumptions ➡](001%20-%20key_assumptions.md)

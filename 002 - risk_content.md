@@ -6,7 +6,7 @@ Urban Thread operates in a business environment where cyber security risks are i
 
 The organisation's overall cyber risk profile is primarily driven by four key factors:
 
-### 1. Regulatory and Compliance Exposure
+## 2.1 Regulatory and Compliance Exposure
 
 Urban Thread processes payment card transactions and stores personal information relating to its customers, including a significant proportion of individuals under the age of 18. As a result, the organisation must comply with:
 
@@ -24,7 +24,7 @@ Failure to comply may result in:
 Because customer data includes information relating to minors, any personal data breach is considered a high-priority business risk regardless of its likelihood.
 
 
-### 2. Reputational Sensitivity
+## 2.2. Reputational Sensitivity
 
 Urban Thread's commercial success depends heavily on customer trust and social media engagement. Approximately 60% of sales originate through its online channels, while TikTok and Instagram represent its primary marketing and customer acquisition platforms.
 
@@ -41,7 +41,7 @@ could rapidly reduce customer confidence, generate negative publicity, and direc
 Unlike larger organisations, small retailers often have limited ability to recover from significant reputational damage, making brand protection a critical security objective.
 
 
-### 3. Operational and Resource Constraints
+## 2.3. Operational and Resource Constraints
 
 Urban Thread currently operates with:
 
@@ -65,7 +65,7 @@ Cyber security should therefore be viewed as a **business enabler** that support
 
 
 
-### 4. Business Growth and Third-Party Dependency
+## 2.4. Business Growth and Third-Party Dependency
 
 Urban Thread plans to expand from one retail location to three stores within the next year. This expansion will introduce:
 
@@ -89,7 +89,7 @@ Although these services reduce infrastructure management responsibilities, they 
 
 
 
-## Risk Appetite
+## 2.5. Risk Appetite
 
 Urban Thread has a **low-to-moderate risk appetite**.
 
@@ -109,11 +109,11 @@ Enterprise-scale security platforms and dedicated security personnel are conside
 
 
 
-# Assessment Methodology
+# 2.6. Assessment Methodology
 
 This cyber security risk assessment is structured using the **NIST Cybersecurity Framework (CSF) 2.0**, with risk identification and evaluation informed by the principles of **NIST SP 800-30: Guide for Conducting Risk Assessments**. The assessment also considers relevant requirements from **UK GDPR**, **PCI-DSS**, and industry good practice where appropriate.
 
-## Assessment Objectives
+## 2.6.1. Assessment Objectives
 
 The assessment aims to:
 
@@ -124,8 +124,7 @@ The assessment aims to:
 * support secure business growth while maintaining regulatory compliance.
 
 
-
-## Why NIST CSF?
+## 2.6.2. Why NIST CSF?
 
 The NIST Cybersecurity Framework was selected because it provides a practical, flexible and widely recognised approach suitable for small and medium-sized businesses.
 
@@ -138,7 +137,7 @@ Key advantages include:
 
 
 
-## Risk Assessment Approach
+## 2.6.3.   Risk Assessment Approach
 
 Each identified risk is assessed by considering:
 
@@ -151,9 +150,9 @@ Each identified risk is assessed by considering:
 
 Risks are evaluated using a qualitative scoring model based on **Likelihood** and **Business Impact**.
 
-### Risk Scoring Formula
+**Risk Scoring Formula**
 
-**Risk Score = Likelihood × Impact**
+> **Risk Score = Likelihood × Impact**
 
 Where:
 
@@ -162,7 +161,7 @@ Where:
 
 
 
-## Risk Prioritisation
+#### Risk Prioritisation
 
 | Risk Score | Priority | Recommended Response                                    |
 | ---------- | -------- | ------------------------------------------------------- |
@@ -173,10 +172,23 @@ Where:
 Where regulatory obligations or children's personal data are involved, risks may be prioritised above their numerical score to reflect Urban Thread's compliance responsibilities and low tolerance for data protection failures.
 
 
+# Methodology
+## 3.1 Assessment Purpose
 
-## Assessment Scope
+This cyber security risk assessment evaluates Urban Thread's current cyber security exposure by identifying critical assets, potential threats, existing vulnerabilities and associated business risks.
 
-This assessment covers the following business areas:
+The purpose of the assessment is to provide a practical security improvement roadmap that reduces the likelihood and impact of cyber incidents while supporting Urban Thread's business objectives, regulatory obligations and planned expansion.
+
+The assessment has been designed to reflect the operational realities of a small retail organisation, including limited internal security resources, reliance on cloud services and a constrained security budget.
+
+## 3.2 Assessment Scope
+
+The assessment covers the systems, information assets, business processes and third-party services that support Urban Thread's retail and e-commerce operations.
+The resulting risk register and recommendations are designed to reflect Urban Thread's current operational environment while providing a roadmap that can scale alongside the organisation's planned business expansion.
+
+### Business Environment
+
+The assessment considers:
 
 * e-commerce platform and online store
 * point-of-sale (POS) systems
@@ -187,7 +199,45 @@ This assessment covers the following business areas:
 * third-party suppliers and SaaS providers
 * endpoint devices used by employees
 * backup and business continuity arrangements
+* one Birmingham retail store.
+* approximately 12 employees.
+* 60% online sales and 40% in-store sales.
+* future expansion to Manchester and London stores.
+* reliance on social media platforms for marketing and customer engagement.
 
-The resulting risk register and recommendations are designed to reflect Urban Thread's current operational environment while providing a roadmap that can scale alongside the organisation's planned business expansion.
+### Technology Scope
 
-[⬅ Back to Home](000%20-%20README.md)
+The following technology areas are included:
+
+***E-Commerce Platform***
+
+Included:
+
+- Shopify or equivalent SaaS platform.
+- Store administration accounts.
+- Third-party applications and plugins.
+- Customer account management.
+- Product and order information.
+
+Excluded: Security of Shopify's underlying infrastructure remains the responsibility of the provider.
+
+**Payment Processing**
+
+Included:
+
+- Payment account access controls.
+- Merchant account security.
+- PCI-DSS responsibilities retained by Urban Thread.
+
+**Excluded:** Payment card processing infrastructure managed by the third-party payment provider.
+### Business Systems
+
+Included systems:
+
+- Microsoft 365 or Google Workspace.
+- Point-of-sale (POS) systems.
+- Inventory management systems.
+- Employee devices.
+- Cloud storage services
+
+[⬅ Back to Home](000%20-%20README.md) | [Next: Asset Identification ➡](003a%20-%20asset_identification.md)
