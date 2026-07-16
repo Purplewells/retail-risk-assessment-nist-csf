@@ -1,6 +1,6 @@
-## Urban Thread Overview for Risk Assessment
+## Overview for Risk Assessment
 
-**Urban Thread** is a small to medium business UK-based fashion retailer targeting teenagers and young adults through a combination of e-commerce and a physical retail presence. The business currently operates **one store in Birmingham** with **12 full-time employees**, generating approximately **60% of its revenue from online sales** and **40% from in-store purchases**. The company relies heavily on **TikTok and Instagram** for customer acquisition and brand awareness, making its online presence a critical business asset.
+**Urban Thread** is a UK-based small to medium sized business fashion retailer targeting teenagers and young adults through a combination of e-commerce and a physical retail presence. The business currently operates **one store in Birmingham** with **12 full-time employees**, generating approximately **60% of its revenue from online sales** and **40% from in-store purchases**. The company relies heavily on **TikTok and Instagram** for customer acquisition and brand awareness, making its online presence a critical business asset.
 
 The organisation has ambitious growth plans to expand to **three stores** (Birmingham, Manchester and London) within the next year, increasing its workforce to approximately **25 employees**. This expansion will introduce additional point-of-sale (POS) systems, a larger customer database, and more complex operational processes, all of which will increase the organisation's cyber security risk exposure.
 
@@ -21,6 +21,8 @@ Overall, Urban Thread's cyber security risk profile is characterised by a strong
 
 | Priority | Funded            |Not Funded (Accepted Risk) |
 | -------- | ----------------- |---------------------------|
-| High     | PCI-DSS compliance, GDPR data protection, incident response basics |Real-time threat detection, penetration testing, bug bounty|
+| High     | PCI-DSS compliance, GDPR data protection, incident response basics |Real-time threat detection, penetration testing|
 |Medium    |Social media MFA, basic security training, vendor questionnaires|Advanced threat monitoring, security awareness platform|
 |Low | Annual access review, tabletop exercises | Cyber insurance, redundant systems, DDoS mitigation|
+
+[⬅ Back to Home](000%20-%20README.md)

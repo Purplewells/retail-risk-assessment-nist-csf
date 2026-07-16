@@ -80,3 +80,5 @@ Considering Urban Thread's technology environment, staffing constraints and reli
 Urban Thread's threat landscape is dominated by attacks that exploit human behaviour and cloud-based identities rather than direct attacks on infrastructure. Phishing, credential theft and ransomware represent the highest-priority threats because they can compromise multiple critical assets, including Microsoft 365, the Shopify store, customer data and payment systems. The organisation's dependence on social media for marketing also makes account takeover a significant business risk due to its potential impact on customer trust and brand reputation.
 
 These identified threats will be assessed against known vulnerabilities in the next stage of the assessment to determine the overall level of risk and identify appropriate mitigation measures.
+
+[⬅ Back to Home](000%20-%20README.md)
