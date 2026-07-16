@@ -1,12 +1,12 @@
 # Risk Context
 
-## Urban Thread Risk Profile
+## 2.0  Urban Thread Risk Profile
 
 Urban Thread operates in a business environment where cyber security risks are influenced by its business model, customer demographics, regulatory obligations, and limited operational resources. As a growing small retail business, the organisation relies heavily on cloud-based services, e-commerce, third-party providers, and social media to generate revenue. Consequently, successful cyber attacks could disrupt business operations, expose customer data, damage the company's reputation, and hinder future expansion.
 
 The organisation's overall cyber risk profile is primarily driven by four key factors:
 
-## 2.1 Regulatory and Compliance Exposure
+## 2.1  Regulatory and Compliance Exposure
 
 Urban Thread processes payment card transactions and stores personal information relating to its customers, including a significant proportion of individuals under the age of 18. As a result, the organisation must comply with:
 
@@ -161,7 +161,7 @@ Where:
 
 
 
-#### Risk Prioritisation
+#### 2.6.4  Risk Prioritisation
 
 | Risk Score | Priority | Recommended Response                                    |
 | ---------- | -------- | ------------------------------------------------------- |
@@ -172,8 +172,9 @@ Where:
 Where regulatory obligations or children's personal data are involved, risks may be prioritised above their numerical score to reflect Urban Thread's compliance responsibilities and low tolerance for data protection failures.
 
 
-# Methodology
-## 3.1 Assessment Purpose
+# 3.0   Methodology
+
+## 3.1  Assessment Purpose
 
 This cyber security risk assessment evaluates Urban Thread's current cyber security exposure by identifying critical assets, potential threats, existing vulnerabilities and associated business risks.
 
@@ -181,12 +182,12 @@ The purpose of the assessment is to provide a practical security improvement roa
 
 The assessment has been designed to reflect the operational realities of a small retail organisation, including limited internal security resources, reliance on cloud services and a constrained security budget.
 
-## 3.2 Assessment Scope
+## 3.2  Assessment Scope
 
 The assessment covers the systems, information assets, business processes and third-party services that support Urban Thread's retail and e-commerce operations.
 The resulting risk register and recommendations are designed to reflect Urban Thread's current operational environment while providing a roadmap that can scale alongside the organisation's planned business expansion.
 
-### Business Environment
+### 3.2.1   Business Environment
 
 The assessment considers:
 
@@ -205,7 +206,7 @@ The assessment considers:
 * future expansion to Manchester and London stores.
 * reliance on social media platforms for marketing and customer engagement.
 
-### Technology Scope
+### 3.2.2   Technology Scope
 
 The following technology areas are included:
 
@@ -230,9 +231,8 @@ Included:
 - PCI-DSS responsibilities retained by Urban Thread.
 
 **Excluded:** Payment card processing infrastructure managed by the third-party payment provider.
-### Business Systems
 
-Included systems:
+Business Systems Included:
 
 - Microsoft 365 or Google Workspace.
 - Point-of-sale (POS) systems.
