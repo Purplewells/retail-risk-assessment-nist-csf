@@ -240,4 +240,4 @@ Business Systems Included:
 - Employee devices.
 - Cloud storage services
 
-[⬅ Back to Home](000%20-%20README.md) | [Next: Asset Identification ➡](003a%20-%20asset_identification.md)
+[⬅ Previous: Key Assumptions](001%20-%20key_assumptions.md) | [🏠 Home](000%20-%20README.md) | [Next: Asset Identification ➡](003%20-%20asset_identification.md)
