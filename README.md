@@ -1,21 +1,37 @@
-# Urban Thread Risk
-
-A portfolio of Governance, Risk & Compliance (GRC) work samples, built to demonstrate practical, framework-aligned security risk assessment methodology applied to realistic business scenarios.
-
-## What This Is
-
-This repository showcases end-to-end cyber security risk assessments, from scoping and asset identification through to threat/vulnerability analysis, risk registers, treatment plans and executive recommendations. Each project simulates a real client engagement, complete with documented assumptions, so the reasoning behind every judgement call is transparent and auditable.
-
-The goal is to demonstrate GRC methodology the way it would be applied in practice: grounded in a recognised framework, scoped to a specific organisation's context (industry, size, budget, regulatory exposure), and delivered as a set of professional, decision-ready documents.
+# Urban Thread - Security Risk Assessment
+A National Institute of Standards and Technology (NIST) CSF- aligned risk assessment for a fictional youth retail brand, demonstrating GRC methodology in a realistic SMB context.
 
 ## Table of Contents
+- [Key Assumptions](001%20-%20key_assumptions.md)
+- [Risk Content & Assessment Methodology](002%20-%20risk_content.md)
+- [Asset Identification](003%20-%20asset_identification.md)
+- [Threat Identification](004%20-%20threat_identification.md)
+- [Vulnerability Assessment](005%20-%20vulnerability_assessment.md)
+- [Risk Register](006%20-%20risk_register.md)
+- [Risk Treatment Plan](007%20-%20treatment_plan.md)
+- [Recommendations & Roadmap](008%20-%20recommendations_and_roadmap.md)
+- [Glossary of Terminologies](099%20-%20glosary_of_terminologies.md)
 
-- [Retail Risk Assessment (NIST CSF)](retail-risk-assessment-nist-csf/000%20-%20README.md) — a NIST CSF-aligned risk assessment for a fictional youth retail brand ("Urban Thread"), covering scoping, asset/threat/vulnerability analysis, risk register, treatment plan and roadmap
+## Client Context
+- **Organisation**: Urban Thread
+- **Industry:** Retail (accessories, streetwear)
+- **Geography:** Birmingham, UK (with plans to expand to Manchester and London in 12 months)  
+- **Size:** 1 store, 12 FTE staff (1 part-time manager handling operations + IT)  
+- **Customer Base:** Predominantly 13–25 years old; ~40% of customers are under 18  
+- **Revenue Model:** 60% e-commerce, 40% in-store walk-in sales
 
-## Repository Structure
+## Scope & Assumptions
+### In Scope
+- Physical store POS systems and payment processing
+- E-commerce platform (assumed Shopify or similar SaaS)
+- Customer database and CRM
+- Staff access controls and credential management
+- Social media and digital brand presence
+- Third-party vendor relationships (hosting, payment processor, analytics)
 
-Each project lives in its own top-level folder with a numbered set of documents (assumptions → context → assets → threats → vulnerabilities → risk register → treatment plan → recommendations) and its own `README.md` acting as that project's home page and table of contents. Every document links back to its project's home page for easy navigation.
+### Out of Scope
+- Supply chain security (assumed handled by vendor)
+- Physical security (building alarms, CCTV is not a security maturity issue)
+- Compliance with industry-specific standards beyond PCI-DSS and GDPR (e.g., no ISO 27001 certification required at this stage)
 
----
-
-*This is a portfolio/demonstration repository. Organisations, data and scenarios referenced within are fictional unless stated otherwise.*
+[Next: Key Assumptions ➡](001%20-%20key_assumptions.md)
