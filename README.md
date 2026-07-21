@@ -9,7 +9,7 @@ A National Institute of Standards and Technology (NIST) CSF- aligned risk assess
 - [Vulnerability Assessment](005%20-%20vulnerability_assessment.md)
 - [Risk Register](006%20-%20risk_register.md)
 - [Risk Treatment Plan](007%20-%20treatment_plan.md)
-- [Recommendations & Roadmap](008%20-%20recommendations_and_roadmap.md)
+- [Recommendations](008%20-%20recommendations_and_roadmap.md)
 - [Glossary of Terminologies](099%20-%20glosary_of_terminologies.md)
 
 ## Client Context
